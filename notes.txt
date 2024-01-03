@@ -23,3 +23,8 @@ git checkout -b <branch name (feature-reportin)>
 git checkout main (or master) changes to specified branch
 
 git merge <branch name (from main branch)> 
+git branch -d <branch name> to delete the branch
+git branch -v shows the latest commit for the current branch
+git branch shows all branches and marks the active one
+
+=== MERGE CONFLICTS ===
