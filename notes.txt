@@ -20,3 +20,4 @@ git commit --amend
 
 === BRANCHES ===
 git checkout -b <branch name (feature-reportin)>
+git checkout main (or master) changes to specified branch
