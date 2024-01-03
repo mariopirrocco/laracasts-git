@@ -1,0 +1,22 @@
+mpirrocco
+AnaMon@2083
+
+Guidelines - when to commit
+- When hitting a milestone, it's time to commit, specially when you work in features. Once is tested and working, it's a good time to commit.
+
+git init
+git status
+git add filename
+git add .
+git commit -m 'message'
+git commit (alone) Opens a text editor where the first line is the description, then separate the rest of the info with a line, then exit with commmand + q
+git log
+
+git diff
+
+git reset --hard 650a7555c210245bc2904983a0861ccb69cfcfdb (commit obtained via git log)
+git reset --soft 650a7555c210245bc2904983a0861ccb69cfcfdb (commit obtained via git log)
+git commit --amend
+
+=== BRANCHES ===
+git checkout -b <branch name (feature-reportin)>
